@@ -1,0 +1,329 @@
+
+<html>
+
+	<style>
+		body {
+			padding: 0;
+			margin: 0;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+		#bar {
+			padding-bottom: 30px;
+			border-radius: 0px 0px 20px 20px;
+			background-color:#2c9abb;
+		}
+
+		#part {
+			background: #2e829b;
+			position: absolute;
+			left: 50%;
+			margin-right: -50%;
+			margin-top: -2px;
+			padding: 10px;
+			border-radius: 0px 0px 8px 8px;
+			color: #000;
+			text-decoration:none;
+			font-size: revert-layer;
+		}
+
+		table {
+			display:table-cell;
+			padding: 0px 31px 0px;
+		}
+
+		#tb{
+			padding-bottom: 30px;
+			border-radius: 6px 6px 6px 6px;
+			background-color:#2e829b;
+			position: relative;
+			left: 100%;
+		}
+
+
+	</style>
+	<body>
+		<div id="bar">
+			<a href="#" id="part">Partidas</a>
+		</div>
+
+		<table id="tb">
+			<tr>
+				<td>Grupo A º Rodada 1 de 3</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>
+					<a><img src="img/catar.png" style="width:24px; height:24px">Catar</a>
+					<br>
+					<a><img src="img/equador.png" style="width:24px; height:24px">Equador</a>
+				</td>
+				<td>
+					<a class="text-left">| 20/11</a></br>
+					<a class="text-left">| 13:00</a>
+				</td>
+			</tr>
+		</table>
+
+		<table id="tb">
+			<tr>
+				<td>Grupo B º Rodada 1 de 3</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>
+					<a><img src="img/inglaterra.png" style="width:24px; height:24px">Inglaterra</a>
+					<br>
+					<a><img src="img/ira.png" style="width:24px; height:24px">irã</a>
+				</td>
+				<td>
+					<a class="text-left">| 21/11</a></br>
+					<a class="text-left">| 16:00</a>
+				</td>
+			</tr>
+		</table>
+
+		<br>
+
+		<table id="tb">
+			<tr>
+				<td>Grupo A º Rodada 1 de 3</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>
+					<a><img src="img/senegal.png" style="width:24px; height:24px">Senegal</a>
+					<br>
+					<a><img src="img/holanda.png" style="width:24px; height:24px">Holanda</a>
+				</td>
+				<td>
+					<a class="text-left">| 21/11</a></br>
+					<a class="text-left">| 13:00</a>
+				</td>
+			</tr>
+		</table>
+
+		<table id="tb">
+			<tr>
+				<td>Grupo B º Rodada 1 de 3</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>
+					<a><img src="img/eua.png" style="width:24px; height:24px">Estados Unidos</a>
+					<br>
+					<a><img src="img/gales.png" style="width:24px; height:24px">Gales</a>
+				</td>
+				<td>
+					<a class="text-left">| 21/11</a></br>
+					<a class="text-left">| 16:00</a>
+				</td>
+			</tr>
+		</table>
+
+		<br>
+
+		<table id="tb">
+			<tr>
+				<td>Grupo C º Rodada 1 de 3</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>
+					<a><img src="img/argentina.png" style="width:24px; height:24px">Argentina</a>
+					<br>
+					<a><img src="img/arabe.png" style="width:24px; height:24px">Arábia Saudita</a>
+				</td>
+				<td>
+					<a class="text-left">| 22/11</a></br>
+					<a class="text-left">| 07:00</a>
+				</td>
+			</tr>
+		</table>
+
+		<table id="tb">
+			<tr>
+				<td>Grupo D º Rodada 1 de 3</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>
+					<a><img src="img/dinamarca.png" style="width:24px; height:24px">Dinamarca</a>
+					<br>
+					<a><img src="img/tunisia.png" style="width:24px; height:24px">Tunísia</a>
+				</td>
+				<td>
+					<a class="text-left">| 22/11</a></br>
+					<a class="text-left">| 10:00</a>
+				</td>
+			</tr>
+		</table>
+
+		<br>
+
+		<table id="tb">
+			<tr>
+				<td>Grupo C º Rodada 1 de 3</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>
+					<a><img src="img/mexico.png" style="width:24px; height:24px">México</a>
+					<br>
+					<a><img src="img/polonia.png" style="width:24px; height:24px">Polônia</a>
+				</td>
+				<td>
+					<a class="text-left">| 22/11</a></br>
+					<a class="text-left">| 13:00</a>
+				</td>
+			</tr>
+		</table>
+
+		<table id="tb">
+			<tr>
+				<td>Grupo D º Rodada 1 de 3</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>
+					<a><img src="img/franca.png" style="width:24px; height:24px">França</a>
+					<br>
+					<a><img src="img/australia.png" style="width:24px; height:24px">Austrália</a>
+				</td>
+				<td>
+					<a class="text-left">| 22/11</a></br>
+					<a class="text-left">| 16:00</a>
+				</td>
+			</tr>
+		</table>
+
+		<br>
+
+		<table id="tb">
+			<tr>
+				<td>Grupo F º Rodada 1 de 3</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>
+					<a><img src="img/marrocos.png" style="width:24px; height:24px">Marrocos</a>
+					<br>
+					<a><img src="img/croacia.png" style="width:24px; height:24px">Croácia</a>
+				</td>
+				<td>
+					<a class="text-left">| 23/11</a></br>
+					<a class="text-left">| 07:00</a>
+				</td>
+			</tr>
+		</table>
+
+		<table id="tb">
+			<tr>
+				<td>Grupo E º Rodada 1 de 3</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>
+					<a><img src="img/alemanha.png" style="width:24px; height:24px">Alemanha</a>
+					<br>
+					<a><img src="img/japao.png" style="width:24px; height:24px">Japão</a>
+				</td>
+				<td>
+					<a class="text-left">| 23/11</a></br>
+					<a class="text-left">| 10:00</a>
+				</td>
+			</tr>
+		</table>
+
+		<br>
+
+		<table id="tb">
+			<tr>
+				<td>Grupo E º Rodada 1 de 3</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>
+					<a><img src="img/espanha.png" style="width:24px; height:24px">Espanha</a>
+					<br>
+					<a><img src="img/costarica.png" style="width:24px; height:24px">Costa Rica</a>
+				</td>
+				<td>
+					<a class="text-left">| 23/11</a></br>
+					<a class="text-left">| 13:00</a>
+				</td>
+			</tr>
+		</table>
+
+		<table id="tb">
+			<tr>
+				<td>Grupo F º Rodada 1 de 3</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>
+					<a><img src="img/belgica.png" style="width:24px; height:24px">Bélgica</a>
+					<br>
+					<a><img src="img/canada.png" style="width:24px; height:24px">Canadá</a>
+				</td>
+				<td>
+					<a class="text-left">| 23/11</a></br>
+					<a class="text-left">| 16:00</a>
+				</td>
+			</tr>
+		</table>
+
+		<br>
+
+		<table id="tb">
+			<tr>
+				<td>Grupo G º Rodada 1 de 3</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>
+					<a><img src="img/suica.png" style="width:24px; height:24px">Suiça</a>
+					<br>
+					<a><img src="img/camaroes.png" style="width:24px; height:24px">Camarões</a>
+				</td>
+				<td>
+					<a class="text-left">| 24/11</a></br>
+					<a class="text-left">| 07:00</a>
+				</td>
+			</tr>
+		</table>
+
+		<table id="tb">
+			<tr>
+				<td>Grupo H º Rodada 1 de 3</td>
+				<td></td>
+			</tr>
+
+			<tr>
+				<td>
+					<a><img src="img/uruguai.png" style="width:24px; height:24px">Uruguai</a>
+					<br>
+					<a><img src="img/coreia.png" style="width:24px; height:24px">Coreia do Sul</a>
+				</td>
+				<td>
+					<a class="text-left">| 24/11</a></br>
+					<a class="text-left">| 10:00</a>
+				</td>
+			</tr>
+		</table>
+
+	</body>
+
+</html>
