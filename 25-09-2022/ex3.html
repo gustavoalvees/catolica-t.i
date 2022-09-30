@@ -1,0 +1,38 @@
+<html>
+
+	<head>
+
+	<script>
+		/*
+			Faça um programa para que o usuário informe a sua idade e você responda se ele nasceu antes 
+			anos 2000. 
+		*/
+
+	function divire(){
+		if( (2022-form.idade.value)>2000) {
+			form.vida.value = "Não"
+		}else{
+			form.vida.value = "Sim"
+		}
+	}
+
+	</script>
+
+	</head>
+
+<body>
+
+<form name="form">
+	
+	<a/>Sua idade<a><br>
+	<input type=text value=0 name="idade" max=100 min=1>
+	<button type=button onClick="divire()">Calcular</button> 
+	<br>
+	<a/>Nasceu antes de 2000<a><br>
+	<input type=text value="0" name="vida" disabled>
+</form>
+
+</body>
+
+</html>
+

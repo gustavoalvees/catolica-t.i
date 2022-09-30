@@ -1,0 +1,68 @@
+<html>
+
+	<head>
+
+	<script>
+		/*
+			Para a cobrança mensal das tarifas de água de uma determinada cidade é considerado as faixas de consumo, sabendo que: 
+			- até 20m3 => R$1,60/m3 
+			- de 21 a 50m3 -> R$2,80/m3 
+			- acima de 50m3 -> R$4,20/m3 
+
+			 
+
+			Uma vez descoberta a faixa em que se encaixa o consumidor, faça o calculo do valor a ser pago e aplique o desconto se cumprir o requisito: 
+			- Se valor total for inferior a R$100,00, aplique 5% de desconto. 
+			- Se valor total for acima de R$200,00, aplique 10% de acréscimo. 
+		*/
+
+		function calcules(){
+			var metrus = form.metris.value;
+			var valor  = 0.0;
+
+			if(metrus <= 20){
+				valor = metrus * 1.60
+			}else if(metrus >= 21 && metrus <= 50){
+				valor = metrus * 2.80
+			}else if(metrus > 50){
+				valor = metrus * 4.20
+			}
+
+			// aplicar dd
+			if(valor < 100){
+				valor = (valor * 5) / 100
+				form.discontes.value = "5%"
+			}else if(valor > 200){
+				valor = (valor * 10) / 100
+				form.discontes.value = "10%"
+			}else{
+				form.discontes.value = "0%"
+			}
+
+			form.valuthis.value = "R$" + valor;
+
+		}
+	</script>
+
+	</head>
+
+<body>
+
+<form name="form">
+	<a/>Metros quadrados para consultar valor:<a><br>
+	<input type="text" name="metris"><br>
+	<a/>Valor para pagar:<a><br>
+	<input type="text" name="valuthis" disabled=""><br>
+	<a/>Total Desconto::<a><br>
+	<input type="text" name="discontes" disabled=""><br>
+
+
+
+	<button type=button onClick="calcules()">Check</button> 
+	<br>
+</form>
+
+</body>
+
+</html>
+

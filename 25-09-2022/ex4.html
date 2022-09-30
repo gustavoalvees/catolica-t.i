@@ -1,0 +1,74 @@
+<html>
+
+	<head>
+
+	<script>
+		/*
+			Faça um programa pedindo para o usuário informar o ano do seu nascimento e o seu nome. 
+
+		Se o nome dele for Paulo ou Mara e a idade estiver entre 18 a 40, mostre a resposta como verdadeira: 
+
+		-Mostre uma mensagem pedindo o ano de nascimento do usuário 
+
+		-Calcule a sua idade 
+
+		-Mostre uma mensagem pedindo o nome do usuário 
+
+		- Faça a função para verificar se a idade do usuário é maior ou igual a dezoito E menor ou igual a 40. Verifique ainda se ele se chama Paulo ou Mara. 
+		*/
+
+	function checkIdade(){
+		const dude = new Date(form.nascimento.value);
+
+		var   mes = dude.getMonth();
+		var   ano = dude.getFullYear();
+
+		if(isNaN(dude)){
+			form.nascimento.focus();
+			alert("data invalida, use uma data valida ser!!!")
+		}
+		const now = new Date();
+		var   mes1 = now.getMonth();
+		var   ano1 = now.getFullYear();
+
+		var calcules = mes-mes1;
+		var ane = ano1-ano;
+		// https://pt.stackoverflow.com/questions/137503/como-saber-se-a-pessoa-%C3%A9-maior-de-idade
+		if(calcules<0|| (calcules===0 && now.getDate()  < dude.getDate())){
+			ane--;
+		}
+
+		return ane;
+
+	}
+
+	function send(){
+		var idade = checkIdade();
+		var sim   = false
+		if(idade>= 18 && idade <= 40){
+			if(form.name.value=="Paulo" || form.name.value=="Mara"){
+				sim = true;
+			}
+		}
+		alert("resultado é "+sim+" se nome = Paulo ou Mara e se ( idade >= 18 with <= 40)<br> , e você tem :"+idade+" de idade!");
+	}
+
+	</script>
+
+	</head>
+
+<body>
+
+<form name="form">
+	<a/>Seu Nome<a><br>
+	<input type="text" name="name"><br>
+	<a/>Ano de Nascimento<a><br>
+	<input type="date" value="00/00/0000" name="nascimento"><br><br>
+	<button type=button onClick="send()">Check</button> 
+	<br>
+</form>
+
+</body>
+
+</html>
+

@@ -1,0 +1,68 @@
+<html>
+
+	<head>
+
+	<script>
+		/*
+			Desenvolva um programa que calcule o IMC do usuário. IMC é o índice da 
+			massa corpórea e é reconhecido como padrão internacional para avaliar o 
+			grau de sobrepeso e obesidade. É calculado dividindo o peso (em kg) pela 
+			altura ao quadrado (em metros). Depois que calcular o IMC mostre qual é a 
+			situação do usuário. 
+
+			 
+
+			IMC = PESO/(ALTURA*ALTURA) 
+			Considerando: 
+
+			Menos de 18,5 - abaixo do peso 
+			18,5 a 24,9 - peso saudável 
+			25 a 29,9 - sobrepeso 
+			30 a 39,9 - obeso 
+			+ de 40 - muito obeso (também conhecido como obeso mórbido) 
+		*/
+		function getInfoIMC(imc){
+			if(imc < 18.5){
+				return 'Abaixo do Peso';
+			}else if(imc > 18.5 && imc <= 24.9){
+				return "Peso ideal";
+			}else if(imc > 25 && imc <= 29.9){
+				return "Sobrepeso";
+			}else if(imc > 30 && imc <= 39.9){
+				return "Obeso";
+			}else if(imc > 40){
+				return "Obeso mórbido";
+			}else{
+				return "??"
+			}
+		}
+
+
+		function calculeIMC(){
+			var alture   = +form.alture.value;
+			var peso     = +form.pieze.value;
+			var imc 	 =  peso/(alture*alture)
+			alert("seu imc: "+imc+" status: "+getInfoIMC(imc));
+		}
+	</script>
+
+	</head>
+
+<body>
+
+<form name="form">
+	<a/>Peso do individuo<a><br>
+	<input type="text" name="pieze"><br>
+	<a/>Altura do individuo<a><br>
+	<input type="text" name="alture"><br>
+
+
+
+	<button type=button onClick="calculeIMC()">Check</button> 
+	<br>
+</form>
+
+</body>
+
+</html>
+
